@@ -26,14 +26,32 @@
         </div>
     </nav>
 
-    <div class="container">
+
+<!-- ---------- ---------- -->
+<!-- Start of Quiz -->
+    <div class="container mt-5">
         <h1 class="my-4">ADHD Personality Quiz</h1>
         <form id="quizForm">
             <div id="questionContainer"></div>
             <button type="submit" class="btn btn-primary mt-3">Submit</button>
         </form>
     </div>
-    
+
+<!-- ---------- ---------- -->
+<!-- Start of Introduction -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">ADHD Personality Types</h1>
+            <p class="lead">Throughout history, individuals with ADHD traits have made remarkable contributions to various fields. Despite being misunderstood and often underrepresented, their unique combination of creativity, energy, and drive has led to groundbreaking discoveries and innovative ideas. This summary showcases the plurality of ADHD personalities, highlighting the diverse ways in which these traits have manifested in some of the most influential figures in history.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------- ---------- -->
+<!-- Start of Footer -->
+
     <footer class="footer mt-auto py-3 bg-light footer-index">
         <div class="container d-flex justify-content-between align-items-center">
             <span class="text-muted">© 2024 ZingLab. All rights reserved.</span>
@@ -46,17 +64,8 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script>
-        // Function to set the body height to the viewport height
-        function setBodyHeight() {
-            document.body.style.height = `${window.innerHeight}px`;
-        }
-
-        // Set the body height when the page loads
-        document.addEventListener('DOMContentLoaded', setBodyHeight);
-
-        // Update the body height when the window is resized
-        window.addEventListener('resize', setBodyHeight);
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

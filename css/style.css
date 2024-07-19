@@ -22,7 +22,7 @@ a.btn {
 .footer-index {
     display: block;
     position: relative;
-    top: 150px;
+    top: 3em;
 }
 
 @media (max-width: 1023px) {
