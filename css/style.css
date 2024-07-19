@@ -8,11 +8,28 @@ img {
     padding-left: 10%;
 }
 
-.footer {
-    padding-top: 45px;
+div.container {
+    padding-bottom: 5%;
 }
+
+a.btn {
+    display: block;
+    margin: 3%;
+}
+
 .footer-index {
     display: block;
     position: relative;
     top: 150px;
+}
+
+@media (max-width: 1023px) {
+    footer.container {
+        max-width: 50%;
+    }
+    .text-muted {
+        display: block;
+        max-width: 150px;
+        line-height: 1.6em;
+    }
 }

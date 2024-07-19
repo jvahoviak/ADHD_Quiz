@@ -46,5 +46,17 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        // Function to set the body height to the viewport height
+        function setBodyHeight() {
+            document.body.style.height = `${window.innerHeight}px`;
+        }
+
+        // Set the body height when the page loads
+        document.addEventListener('DOMContentLoaded', setBodyHeight);
+
+        // Update the body height when the window is resized
+        window.addEventListener('resize', setBodyHeight);
+    </script>
 </body>
 </html>
