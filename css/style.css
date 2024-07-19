@@ -8,8 +8,10 @@ img {
     padding-left: 10%;
 }
 
-div.container {
-    padding-bottom: 5%;
+.typology-framework {
+    background-color: lightblue;
+    padding: 3%;
+    border-radius: 1.5rem;
 }
 
 a.btn {
