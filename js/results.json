@@ -1,0 +1,212 @@
+{
+    "types": [
+        {
+            "id": "dich",
+            "type": "DICH (Disruptive, Internal, Controlled, Creative)",
+            "breakdown": {
+                "d": "Disruptive",
+                "i": "Internal",
+                "c": "Controlled",
+                "h": "Creative"
+            },
+            "description": "Faces challenges in task completion due to mental distractibility but effectively controls impulses. Known for generating numerous innovative ideas.",
+            "historicalFigure": "Leonardo da Vinci",
+            "figureDescription": "Known for his immense creativity and numerous unfinished projects, da Vinci often had his focus disrupted by his internal restlessness. However, he managed to control his impulses enough to produce groundbreaking work in multiple fields."
+        },
+        {
+            "id": "dicx",
+            "type": "DICX (Disruptive, Internal, Controlled, Experience Seeking)",
+            "breakdown": {
+                "d": "Disruptive",
+                "i": "Internal",
+                "c": "Controlled",
+                "x": "Experience Seeking"
+            },
+            "description": "Experiences internal mental restlessness that disrupts tasks but manages impulses well. Prefers exploring new experiences over creating.",
+            "historicalFigure": "Charles Darwin",
+            "figureDescription": "Darwin exhibited internal restlessness and sought new experiences through his extensive travels and observations, yet he maintained control over his impulses to methodically document and analyze his findings, leading to his theory of evolution."
+        },
+        {
+            "id": "diuh",
+            "type": "DIUH (Disruptive, Internal, Uncontrolled, Creative)",
+            "breakdown": {
+                "d": "Disruptive",
+                "i": "Internal",
+                "u": "Uncontrolled",
+                "h": "Creative"
+            },
+            "description": "Mentally restless and impulsive, leading to frequent disruptions in task completion. Highly creative with a continuous flow of new ideas.",
+            "historicalFigure": "Wolfgang Amadeus Mozart",
+            "figureDescription": "Mozart was highly creative and mentally restless, often struggling with impulsivity. His internal distractions and lack of impulse control led to both prolific output and personal difficulties."
+        },
+        {
+            "id": "diux",
+            "type": "DIUX (Disruptive, Internal, Uncontrolled, Experience Seeking)",
+            "breakdown": {
+                "d": "Disruptive",
+                "i": "Internal",
+                "u": "Uncontrolled",
+                "x": "Experience Seeking"
+            },
+            "description": "Internal restlessness and poor impulse control cause disruptions, but this type thrives on exploring new experiences.",
+            "historicalFigure": "Alexander the Great",
+            "figureDescription": "Known for his internal drive and restlessness, Alexander was impulsive and driven to seek new experiences and conquer new lands, often leading to disruptive outcomes."
+        },
+        {
+            "id": "dech",
+            "type": "DECH (Disruptive, External, Controlled, Creative)",
+            "breakdown": {
+                "d": "Disruptive",
+                "e": "External",
+                "c": "Controlled",
+                "h": "Creative"
+            },
+            "description": "External hyperactivity and distractibility disrupt tasks, but impulses are well managed. Known for producing many creative ideas.",
+            "historicalFigure": "Thomas Edison",
+            "figureDescription": "Edison exhibited external hyperactivity and distractibility, often working on multiple inventions simultaneously. Despite this, he managed his impulses and produced highly creative and innovative work."
+        },
+        {
+            "id": "decx",
+            "type": "DECX (Disruptive, External, Controlled, Experience Seeking)",
+            "breakdown": {
+                "d": "Disruptive",
+                "e": "External",
+                "c": "Controlled",
+                "x": "Experience Seeking"
+            },
+            "description": "Physically hyperactive and distracted, leading to task disruptions. Controls impulses well and is driven by a desire for new experiences.",
+            "historicalFigure": "Theodore Roosevelt",
+            "figureDescription": "Roosevelt was physically active and driven to seek new experiences, from exploring the Amazon to his political career. He maintained control over his impulses, channeling his energy into numerous productive pursuits."
+        },
+        {
+            "id": "deuh",
+            "type": "DEUH (Disruptive, External, Uncontrolled, Creative)",
+            "breakdown": {
+                "d": "Disruptive",
+                "e": "External",
+                "u": "Uncontrolled",
+                "h": "Creative"
+            },
+            "description": "External hyperactivity and lack of impulse control cause disruptions. Highly creative and continually generates new ideas.",
+            "historicalFigure": "Salvador Dalí",
+            "figureDescription": "Dalí’s external hyperactivity and impulsiveness often led to disruptive behavior, yet his lack of impulse control was part of his highly creative and eccentric artistic output."
+        },
+        {
+            "id": "deux",
+            "type": "DEUX (Disruptive, External, Uncontrolled, Experience Seeking)",
+            "breakdown": {
+                "d": "Disruptive",
+                "e": "External",
+                "u": "Uncontrolled",
+                "x": "Experience Seeking"
+            },
+            "description": "Physically hyperactive and impulsive, leading to frequent disruptions. Prefers seeking out new experiences rather than creating.",
+            "historicalFigure": "Richard F. Burton",
+            "figureDescription": "Burton, the famous explorer, exhibited external hyperactivity and impulsiveness, leading to a life filled with seeking new and often disruptive experiences. His lack of impulse control was evident in his numerous adventures and controversies."
+        },
+        {
+            "id": "pich",
+            "type": "PICH (Productive, Internal, Controlled, Creative)",
+            "breakdown": {
+                "p": "Productive",
+                "i": "Internal",
+                "c": "Controlled",
+                "h": "Creative"
+            },
+            "description": "Brimming with internal ideas and controlled impulses, Tesla was highly creative and productive, leading to numerous groundbreaking inventions.",
+            "historicalFigure": "Nikola Tesla",
+            "figureDescription": "Tesla was known for his immense creativity and numerous unfinished projects, often having his focus disrupted by his internal restlessness. However, he managed to control his impulses enough to produce groundbreaking work in multiple fields."
+        },
+        {
+            "id": "picx",
+            "type": "PICX (Productive, Internal, Controlled, Experience Seeking)",
+            "breakdown": {
+                "p": "Productive",
+                "i": "Internal",
+                "c": "Controlled",
+                "x": "Experience Seeking"
+            },
+            "description": "Internally restless and driven to explore, Lewis maintained control over his impulses, leading to productive and detailed exploration.",
+            "historicalFigure": "Meriwether Lewis",
+            "figureDescription": "Lewis exhibited internal restlessness and sought new experiences through his extensive travels and observations, yet he maintained control over his impulses to methodically document and analyze his findings."
+        },
+        {
+            "id": "piuh",
+            "type": "PIUH (Productive, Internal, Uncontrolled, Creative)",
+            "breakdown": {
+                "p": "Productive",
+                "i": "Internal",
+                "u": "Uncontrolled",
+                "h": "Creative"
+            },
+            "description": "Internally restless and impulsive, Van Gogh’s mental state led to a prolific and turbulent artistic output.",
+            "historicalFigure": "Vincent van Gogh",
+            "figureDescription": "Van Gogh was highly creative and mentally restless, often struggling with impulsivity. His internal distractions and lack of impulse control led to both prolific output and personal difficulties."
+        },
+        {
+            "id": "piux",
+            "type": "PIUX (Productive, Internal, Uncontrolled, Experience Seeking)",
+            "breakdown": {
+                "p": "Productive",
+                "i": "Internal",
+                "u": "Uncontrolled",
+                "x": "Experience Seeking"
+            },
+            "description": "Internally restless and impulsive, Saint-Exupéry sought new experiences through aviation and writing.",
+            "historicalFigure": "Antoine de Saint-Exupéry",
+            "figureDescription": "Saint-Exupéry was known for his internal drive and restlessness, being impulsive and driven to seek new experiences and adventures, often leading to significant discoveries and literary contributions."
+        },
+        {
+            "id": "pech",
+            "type": "PECH (Productive, External, Controlled, Creative)",
+            "breakdown": {
+                "p": "Productive",
+                "e": "External",
+                "c": "Controlled",
+                "h": "Creative"
+            },
+            "description": "External energy was channeled productively, resulting in groundbreaking discoveries in physics and mathematics.",
+            "historicalFigure": "Isaac Newton",
+            "figureDescription": "Newton exhibited external hyperactivity and distractibility, often working on multiple theories and experiments simultaneously. Despite this, he managed his impulses and produced highly creative and innovative work in physics and mathematics."
+        },
+        {
+            "id": "pecx",
+            "type": "PECX (Productive, External, Controlled, Experience Seeking)",
+            "breakdown": {
+                "p": "Productive",
+                "e": "External",
+                "c": "Controlled",
+                "x": "Experience Seeking"
+            },
+            "description": "His physical explorations were coupled with controlled impulses, leading to productive documentation and significant exploration.",
+            "historicalFigure": "Marco Polo",
+            "figureDescription": "Marco Polo was physically active and driven to seek new experiences, from exploring new lands to documenting his travels. He maintained control over his impulses, channeling his energy into numerous productive pursuits and significant explorations."
+        },
+        {
+            "id": "peuh",
+            "type": "PEUH (Productive, External, Uncontrolled, Creative)",
+            "breakdown": {
+                "p": "Productive",
+                "e": "External",
+                "u": "Uncontrolled",
+                "h": "Creative"
+            },
+            "description": "External hyperactivity and impulsivity resulted in a prolific and highly creative output in the art world.",
+            "historicalFigure": "Pablo Picasso",
+            "figureDescription": "Picasso’s external hyperactivity and impulsiveness often led to disruptive behavior, yet his lack of impulse control was part of his highly creative and prolific artistic output."
+        },
+        {
+            "id": "peux",
+            "type": "PEUX (Productive, External, Uncontrolled, Experience Seeking)",
+            "breakdown": {
+                "p": "Productive",
+                "e": "External",
+                "u": "Uncontrolled",
+                "x": "Experience Seeking"
+            },
+            "description": "Driven by external energy and impulsive nature, Shackleton sought out new and dangerous expeditions, leading to significant discoveries and experiences.",
+            "historicalFigure": "Ernest Shackleton",
+            "figureDescription": "Shackleton exhibited external hyperactivity and impulsiveness, leading to a life filled with seeking new and often disruptive experiences. His lack of impulse control was evident in his numerous adventurous expeditions and significant discoveries."
+        }
+    ]
+}
