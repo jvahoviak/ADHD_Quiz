@@ -8,6 +8,11 @@ img {
     padding-left: 10%;
 }
 
-div.footer {
+.footer {
     padding-top: 45px;
+}
+.footer-index {
+    display: block;
+    position: relative;
+    top: 150px;
 }
