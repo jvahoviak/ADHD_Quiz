@@ -1,27 +1,3 @@
-document.getElementById('quizForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    let answers = {};
-    for (let i = 1; i <= 8; i++) {
-        let value = document.querySelector(`input[name="q${i}"]:checked`).value;
-        answers[`q${i}`] = value;
-    }
-    let result = calculatePersonalityType(answers);
-    window.location.href = `personality${result}.html`;
-});
-
-function calculatePersonalityType(answers) {
-    // Implement the logic to determine the personality type based on answers
-    // Example for MBTI logic:
-    let type = '';
-    type += answers.q1 === 'E' ? 'E' : 'I';
-    // Repeat for other questions to form the personality type code
-    // This is just an example
-    return 1; // Return the corresponding personality type page number
-}
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const questions = {
         distractibility: {
@@ -150,4 +126,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     populateQuestions();
+
+
 });
