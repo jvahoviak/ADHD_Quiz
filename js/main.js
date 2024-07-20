@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         impulsivity: {
             C: [
-                "Self control takes effort, but it's fine.",
+                "Self control takes a little effort, but not much.",
                 "Do you think about others before taking the last cookie?",
                 "Do you have a foolproof system for self control?"
             ],
