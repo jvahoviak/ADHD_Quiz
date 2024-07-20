@@ -19,6 +19,20 @@ a.btn {
     margin: 3%;
 }
 
+.btn-outline-secondary {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.btn-outline-secondary.active, 
+.btn-outline-secondary:focus, 
+.btn-outline-secondary:hover {
+    opacity: 1;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
 .footer-index {
     display: block;
     position: relative;

@@ -2,50 +2,50 @@ document.addEventListener('DOMContentLoaded', function () {
     const questions = {
         distractibility: {
             D: [
-                "Do you often find it difficult to complete tasks because you get easily distracted?",
-                "Do you frequently lose focus on what you're doing due to outside interruptions?",
-                "Do you struggle to stay on task when there are many things happening around you?"
+                "Concentration is a delicate balance. Any little thing can end the study session.",
+                "If someone talks in the room, do you need to read the paragraph again?",
+                "Are you unable to work if the AC or fan is making a tapping sound?"
             ],
             P: [
-                "Do you often come up with new ideas when you're distracted from your main task?",
-                "Do you find that distractions sometimes lead to creative solutions you hadn't considered before?",
-                "Do you feel that your productivity benefits from being able to shift focus between different tasks or ideas?"
+                "Would you say your distractability makes you more creative?",
+                "Does letting your mind wander lead to new soltuions?",
+                "Are you more productive because you bounce from task to task?"
             ]
         },
         hyperactivity: {
             I: [
-                "Do you often feel mentally restless with a constant flow of thoughts?",
-                "Do you find it hard to calm your mind and stop thinking about multiple things at once?",
-                "Do you frequently get lost in your own thoughts, even when you're supposed to be focused on something else?"
+                "Is your mind never quiet?",
+                "Do you have a dozen thoughts running in your head all the time?",
+                "Are you constantly daydreaming when you should be working?"
             ],
             E: [
-                "Do you often feel the need to move around, even when it's not appropriate?",
-                "Do you find it difficult to sit still for long periods of time?",
-                "Do you engage in physical activities to release excess energy?"
+                "Sitting still is torture, right?",
+                "Fidgeting is the only way to survive meetings.",
+                "Do people often scold you to sit still?"
             ]
         },
         impulsivity: {
             C: [
-                "Do you generally find it easy to control your impulses and think before you act?",
-                "Do you usually consider the consequences of your actions before making a decision?",
-                "Do you rarely act on a whim without thinking it through first?"
+                "Self control takes effort, but it's fine.",
+                "Do you think about others before taking the last cookie?",
+                "Do you have a foolproof system for self control?"
             ],
             U: [
-                "Do you often act on impulse without considering the consequences?",
-                "Do you find it challenging to resist the urge to do something immediately, even if it's not the best choice?",
-                "Do you frequently make spontaneous decisions that you later regret?"
+                "Do you often get scolded for not thinking before you do things?",
+                "All the self-help guides in the world don't seem to help with self control, right?",
+                "Have you eaten an entire plate of cookies while dinner was in the oven?"
             ]
         },
         energy: {
             H: [
-                "Do you frequently come up with new and innovative ideas?",
-                "Do you find yourself thinking of creative solutions to problems, even when you're not trying to?",
-                "Do you enjoy brainstorming and coming up with new concepts?"
+                "Do you have like a million pieces of art and projects and crafts around?",
+                "When something isn't working, is your mind flooded with solutions?",
+                "Does your ideal life involve creating things? Art, cabins, robots, poems?"
             ],
             X: [
-                "Do you prefer seeking out new experiences over creating something new?",
-                "Do you often look for opportunities to explore and try new things?",
-                "Do you find that you're more motivated by experiencing new places and activities than by creating something?"
+                "Does staying inside all day make you feel like you are dying?",
+                "There is nothing more comfortable than being uncomfortable.",
+                "Hiking, biking, and running - but always somewhere new, right?"
             ]
         }
     };
@@ -73,9 +73,13 @@ document.addEventListener('DOMContentLoaded', function () {
             questionDiv.classList.add('form-group');
             questionDiv.innerHTML = `
                 <label>${q.question}</label>
-                <div>
-                    <input type="radio" name="q${index + 1}" value="yes" required> Yes
-                    <input type="radio" name="q${index + 1}" value="no"> No
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-secondary">
+                        <input type="radio" name="q${index + 1}" value="yes" required> Definitely
+                    </label>
+                    <label class="btn btn-outline-secondary">
+                        <input type="radio" name="q${index + 1}" value="no"> Not so much
+                    </label>
                 </div>
             `;
             questionContainer.appendChild(questionDiv);
@@ -126,6 +130,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     populateQuestions();
-
-    
 });
