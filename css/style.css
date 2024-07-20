@@ -1,3 +1,8 @@
+
+h1 {
+    margin: 1.5rem;
+}
+
 body {
     margin: auto;
 }
@@ -6,6 +11,13 @@ img {
 }
 .navbar-nav {
     padding-left: 10%;
+}
+
+img.main-image {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 1rem;
 }
 
 .typology-framework {
@@ -32,6 +44,14 @@ a.btn {
     color: #fff;
 }
 
+form {
+    margin: 3rem 2rem 2rem;
+}
+
+footer {
+    padding: 1rem;
+    margin-top: 3rem;
+}
 
 .footer-index {
     display: block;
@@ -48,4 +68,10 @@ a.btn {
         max-width: 150px;
         line-height: 1.6em;
     }
+}
+@media (max-width: 599px) {
+    img.main-image {
+        display: none;
+    }
+    
 }
